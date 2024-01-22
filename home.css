@@ -21,11 +21,11 @@ header{
 }
 #social{
     float:right;
-    margin-top: 10px;
+    margin-top: 3px;
     margin-right: 15px;
 }
 .slogo{
-    width: 30px;
+    width: 50px;
 }
 
 
@@ -34,6 +34,7 @@ header{
     height: 500px;
     background-image:url('https://png.pngtree.com/background/20230610/original/pngtree-in-the-style-of-anime-aesthetic-picture-image_3053864.jpg');
     /*background-repeat: no-repeat;*/
+    background-size:cover;
    background-size: auto;
   
  
@@ -53,7 +54,7 @@ header{
 }
 #logo span{
    margin-top:13% ;
-    margin-left: 25%;
+    margin-left: 23%;
     position: absolute;
 
 }
@@ -89,7 +90,7 @@ select{
 
 /* quick Search section*/
 #quickSearch{
-    height: 600px;
+   /* height: 600px;*/
    /* border: 10px groove gray;*/
     width:80%;
     margin-top: 2%;
@@ -123,11 +124,11 @@ select{
 .tilecontainer{
     height: 180px;
     width: 30%;
-    border: solid purple;
+    /*border: solid purple;*/
     margin-top: 3%;
     margin-left: 2%;
     display: flex;
-    box-shadow: 20px 20px 10px #484343;
+    box-shadow: 10px 20px 10px #484343;
 
 }
 
@@ -138,26 +139,109 @@ select{
     height: 100%;
     width: 100%;
 }
-.copmheading{
-    color: #2dc859;
-}
 .tilecomponent2{
     width: 45%;
     margin-top: 11%;
     margin-left: 3%;
 }
+.copmheading a{
+    color: #2dc859;
+}
+
 .compheading{
     font-size: 25px;
-    color: #c51b38;
-    font-weight: bold;
+    color: #151ed091;
+    font-weight:bold;
 }
 .compsubheading{
     font-size: 15px;
-    color: skyblue;
+    color: #83c5df;
    
 }
 
 footer{
-    height: 80px;
-    border: 10px double red;
+    /*height: 80px;*/
+    /*border: 10px double red;*/
+    background-color: rgb(122, 24, 24);
+    color: white;
+    text-align: center;
 }
+.fonttext{
+    font-size: 20px;
+}
+
+.footdiv{
+    display: inline-block;
+   border-right: 2px solid white;
+  /* background-color: rgb(122, 24, 24);*/
+   /* background-color: skyblue;*/
+    width: 32%;
+    height: 80px;
+}
+
+.noborder{
+    border:none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:peachpuff;
+    
+    }
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color:#b6e0d0;
+    }
+}
+
+    
+  
+@media screen and (max-width:1100px){
+            body{
+                background-color:#ccda97;
+            
+            }
+     }  
+
+@media screen and (max-width:945px){
+        body{
+            background-color:#ccda97;
+        }
+     .tilecontainer{
+                width:45%;
+     }
+                #quickSearch{
+                    margin-left: 10%;
+            } 
+        }
+ 
+ @media screen and (max-width:800px){
+    body{
+        background-color:#ccda97;
+    }
+    .tileContainer{
+        width:80%;
+    }
+    #quickSearch{
+     margin-left: 15%;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    body{
+        background-color:#ccda97;
+    }
+        .tilecontainer{
+            width:100%
+        }
+        #quicksearch{
+            margin-left: 10%;
+           }
+    }
+
